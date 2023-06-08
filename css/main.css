@@ -1,0 +1,189 @@
+.btn {
+    display: inline-block;
+    width: 136px;
+    height: 46px;
+    text-align: center;
+    background: #fff;
+
+    color: #333;
+    font-size: 16px;
+    line-height: 46px;
+    font-weight: 500;
+
+}
+
+.left {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    background: #fff;
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 500;
+
+}
+
+.right {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    background: #fff;
+    text-align: center;
+    color: #333;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 46px;
+
+}
+
+
+
+
+
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    position: sticky;
+    background: #E6002D;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 999;
+}
+
+.header .header_wrap {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: #fff;
+}
+
+.header .gnb ul {
+    display: flex;
+
+
+
+
+}
+
+.header .gnb ul>li {
+    padding: 0 20px;
+
+    height: 120px;
+    line-height: 120px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.header .gnb ul>li:hover {
+    background: #1818184b
+}
+
+.header .icon {
+    display: flex;
+
+}
+
+.header .icon a {
+    height: 120px;
+    padding: 0 10px;
+    line-height: 120px;
+}
+
+.header .icon a:hover {
+    background: #1818184b;
+}
+
+
+
+
+
+
+.header a>i {
+    font-size: 26px;
+}
+
+.itm {
+    background-size: cover !important;
+
+    position: relative;
+    height: 700px;
+
+}
+
+.itm01 {
+    background: url(../images/main01.jpg)no-repeat center center/cover;
+}
+
+.itm02 {
+    background: url(../images/main02.jpg)no-repeat center center/cover;
+}
+
+.itm03 {
+    background: url(../images/main03.jpg)no-repeat center center/cover;
+}
+
+.itm04 {
+
+    background: url(../images/main04.jpg)no-repeat center center/cover;
+}
+
+.main_visual {}
+
+.main_visual .arrows {
+    position: absolute;
+    bottom: 70px;
+}
+
+.main_visual .arrows ul {
+    display: flex;
+    gap: 2px;
+
+
+}
+
+.main_visual .arrows ul>li:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+
+.main_visual .main_slide .slick-dots {
+    position: absolute;
+    bottom: 70px;
+    right: 20%;
+}
+
+.main_visual .main_slide .slick-dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+
+.main_visual .main_slide .slick-dots li.slick-active {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+
+}
+
+
+
+.main_visual .main_slide .slick-dots button {
+    display: none;
+}
