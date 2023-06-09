@@ -187,3 +187,112 @@
 .main_visual .main_slide .slick-dots button {
     display: none;
 }
+
+.main_event {
+    padding: 100px 0;
+}
+
+.main_event .tit {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.main_event .tit h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+
+}
+
+.main_event .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+
+
+
+}
+
+.main_event figure {
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 1px solid transparent;
+
+}
+
+.main_event figure:hover {
+    border: 1px solid #E6002D;
+    transition: 1s;
+
+}
+
+.main_event .img_box {
+    overflow: hidden;
+    background: #fff;
+    transition: 0.5s;
+
+
+}
+
+
+
+.main_event .img_box img {
+    transition: 0.5s;
+}
+
+.main_event .img_box:hover img {
+    transform: scale(1.1);
+}
+
+.main_event .text {
+    padding: 0 20px;
+}
+
+.main_event .text h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: #E6002D;
+    margin: 10px 0;
+}
+
+.main_event .text p {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+
+
+}
+
+.footer {
+
+    background: #222;
+
+}
+
+.footer .ft {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #999;
+
+}
+
+.footer .footer_left ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer .footer_left .b {
+    color: #fff;
+}
+
+.footer .footer_right {
+    line-height: 1.4;
+}
